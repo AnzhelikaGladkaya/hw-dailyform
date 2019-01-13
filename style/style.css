@@ -51,7 +51,6 @@ form{
 }
 form .form-row{
   margin-bottom: 15px;
-  display: block;
 }
 form input{
   background-color: #f0f0f0;
@@ -72,6 +71,8 @@ form input:focus::-webkit-input-placeholder {
 input.form-row{
   display: block;
   width: 100%;
+}
+.holder{
   overflow: hidden;
 }
 #lastName{
